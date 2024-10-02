@@ -1,39 +1,18 @@
-# words-diff
+# Compare text
 
-This template should help get you started developing with Vue 3 in Vite.
+This website allows users to easily compare two texts side by side, highlighting differences and similarities for a clearer understanding and analysis.
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Install compare-text with pnpm
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```bash
+  cd compare-text
+  pnpm install
+  pnpm run dev
 ```
 
-### Compile and Hot-Reload for Development
+## Acknowledgements
 
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- [Jsdiff](https://github.com/kpdecker/jsdiff)
+- [vue-toastification](https://github.com/Maronato/vue-toastification)
